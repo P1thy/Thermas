@@ -1,10 +1,10 @@
 ﻿<?php
 function conexao()
 {
-$banco 		= "AQP";
-$usuario 	= "phoenix";
-$senha 		= "phoenix";
-$hostname 	= "191.205.246.157:3306";
+$banco 		= "test";
+$usuario 	= "root";
+$senha 		= "";
+$hostname 	= "localhost";
 @$con        = mysql_connect($hostname,$usuario,$senha);
 
 if(!$con)
