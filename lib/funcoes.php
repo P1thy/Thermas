@@ -4,7 +4,7 @@ function conexao()
 $banco 		= "test";
 $usuario 	= "root";
 $senha 		= "";
-$hostname 	= "localhost";
+$hostname 	= "192.168.0.1";
 @$con        = mysql_connect($hostname,$usuario,$senha);
 
 if(!$con)
